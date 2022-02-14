@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="covid.css">
+    <title>IES-Covid Vaccination Report</title>
+</head>
+<body>
+<h1 align="center">Covid Vaccination Report</h1>
+<table  width="100%" bgcolor="#222">
+    <tr>
+        <th><img src="/Images/img1.jpg" align="center" width="1400px" height="300px"></th>
+    </tr>
+</table>
+<h3 align="center">Please Upadte Your Vaccination Details</h4>
+<form action="connect.php" method="post">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="first name">First Name <input type="text" name="first name" id="first name"></label>
+        <label for="last name">Last Name <input type="text" name="last name name" id="last name"></label><br><br>
+        <label for="aadhar number">Aadhar number <input type="text" name="aadhar number" id="aadhar number"></label><br><br>
+        <label for="enrollment number">Enrollment Number <input type="text" name="enrollment number" id="enrollment number"></label><br><br>
+        <label for="College Name">College Name</label>
+        <select name="College Name">
+        <option value="Select College">Select College</option>
+        <option value="ICOT">ICOT</option>
+        <option value="IITM">IITM</option>
+        </select><br><br>
+        <label>Address <input type="text" name="Address" id=""></label>
+    </fieldset>
+    <fieldset>
+        <legend>Vaccination Details</legend>
+        <label>Dose Completed</label><br>
+        <label><input type="checkbox" name="1st Dose" id="">1st Dose</label>
+        <label>Vaccination Date<input type="date" name="vacination date" id=""></label><br>
+        <label><input type="checkbox" name="2nd Dose" id="">2nd Dose</label>
+        <label>Vaccination Date<input type="date" name="vacination date" id=""></label><br>
+        <label>Vaccine Name</label><br>
+        <label for="1st Dose">1st Dose</label>
+        <select name="1st Dose">
+        <option value="Vaccine Name">Vaccine Name</option>
+        <option value="Covaxine">Covaxine</option>
+        <option value="Covishield">Covishield</option>
+        <option value="Sputnik-V">Sputnik-V</option>
+        <option value="Pfizer">Pfizer</option>
+        </select><br>
+        <label for="2nd Dose">2nd Dose</label>
+        <select name="2nd Dose">
+        <option value="Vaccine Name">Vaccine Name</option>
+        <option value="Covaxine">Covaxine</option>
+        <option value="Covishield">Covishield</option>
+        <option value="Sputnik-V">Sputnik-V</option>
+        <option value="Pfizer">Pfizer</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label>Contact Number <input type="text" name="number" id=""></label>
+        <label>Email-address <input type="email" name="email" id=""></label>
+    </fieldset>
+</form><br>
+   <input type="submit" value="Submit Details">
+   <input type="reset" value="Reset"><br>
+<table width="100%" border="10px">
+    <tr>
+        <th align="left">Reach Us At</th>
+        <td>Email - pritamjanu123@gmail.com</td>
+        <td>Contact - 7903184862</td>
+        <td>Address - Bhopal</td>
+    </tr>
+
+</table>
+</body>
+</html>
